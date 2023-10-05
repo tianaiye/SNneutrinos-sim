@@ -37,7 +37,7 @@ void SNneutrinosSimRunAction::BeginOfRunAction(const G4Run *aRun)
 
     man->FinishNtuple(0);
 
-    G4cout << "Ho creato la Ntupla" << G4endl;
+    G4cout << "Ntuple created" << G4endl;
 }
 
 void SNneutrinosSimRunAction::EndOfRunAction(const G4Run *aRun)
