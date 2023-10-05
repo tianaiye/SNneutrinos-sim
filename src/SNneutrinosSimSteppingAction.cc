@@ -43,12 +43,60 @@ void SNneutrinosSimSteppingAction::UserSteppingAction(const G4Step* step)
     G4double tmp_z = track->GetPosition().getZ() / m;
     //G4cout << tmp_x << " " << tmp_y << " " << tmp_z << G4endl;
     G4String particleName = track->GetDynamicParticle()->GetParticleDefinition()->GetParticleName();
-
     G4String startVolumeName = startPoint->GetTouchable()->GetVolume() -> GetLogicalVolume() -> GetName();
     G4String endVolumeName = endPoint->GetTouchable()->GetVolume() -> GetLogicalVolume() -> GetName();
+
+    G4String processName = endPoint->GetProcessDefinedStep()->GetProcessName();
     
 
     //trackLength = trackLength + track->GetStepLength() / m;
+
+   
+    G4double pos_x = 0.;
+    G4double pos_y = 0.;
+    G4double pos_z = 0.;
+    G4StepPoint* aStepPoint = 0;
+
+    if (particleName=="opticalphoton" ){ 
+        run->AddOpticalPhoton();
+        aStepPoint = endPoint;
+        G4ThreeVector pointIn = aStepPoint->GetPosition();
+        pos_x = pointIn[0];
+        pos_y = pointIn[1];
+        pos_z = pointIn[2] ;
+
+        if (processName!="Transportation") G4cout << processName << G4endl;
+         
+        //G4cout << "step_r " << pos_x*pos_x+pos_y*pos_y << " " << 550*550*cm*cm <<G4endl;
+        //G4cout << "step_h " << pos_z << " " << 650*cm << G4endl;
+
+        if (startVolumeName == "Water_log"){
+
+            if(endVolumeName == "Water_log"  || endVolumeName == "Cryostat_log" || endVolumeName == "Tank_log"){
+                track->SetTrackStatus(fStopAndKill);
+                run->AddWaterDetection();
+                analysisMan->FillNtupleDColumn(6, pos_x);  //pos_x
+                analysisMan->FillNtupleDColumn(7, pos_y);  //pos_y
+                analysisMan->FillNtupleDColumn(8, pos_z);  //pos_z
+                analysisMan->AddNtupleRow(0);
+            }
+
+            else if(endVolumeName == "PMT_log"){
+                track->SetTrackStatus(fStopAndKill);
+                run->AddPMTDetection();
+                analysisMan->FillNtupleDColumn(6, pos_x);  //pos_x
+                analysisMan->FillNtupleDColumn(7, pos_y);  //pos_y
+                analysisMan->FillNtupleDColumn(8, pos_z);  //pos_z
+                analysisMan->AddNtupleRow(0);
+            }
+            else G4cout << endVolumeName << G4endl;
+        }
+        else {
+            G4cout << startVolumeName << G4endl;     
+        }
+    }
+    return;
+}
 
     // uncomment for Big Panel Design
     // if(endVolumeName == "Detector_log" && startVolumeName == "Panel_log")
@@ -73,54 +121,6 @@ void SNneutrinosSimSteppingAction::UserSteppingAction(const G4Step* step)
     //     //         ) run->AddPENTowardLAr();
     //     // else if (startVolumeName == "Guide_log") run->AddLightGuideTowardLAr();
     // }
-
-
-   
-    G4double pos_x = 0.;
-    G4double pos_y = 0.;
-    G4double pos_z = 0.;
-    G4StepPoint* aStepPoint = 0;
-    //if photons ???
-    if (particleName=="opticalphotons" || particleName=="gamma"){ 
-        G4cout << "photon" << G4endl;  
-        //if the post-step point is “fGeomBoundary”, the step end on a volume boundary
-        // OUT
-        //if(endPoint->GetStepStatus() == fGeomBoundary && startVolumeName == "Water_log" && endVolumeName=="Tank_log")
-            aStepPoint = endPoint;
-        //IN
-        //if(startPoint->GetStepStatus() == fGeomBoundary && endVolumeName == "Tank_log" && startVolumeName == "Water_log")
-        //    aStepPoint = startPoint;
-        //NOT CROSSING VOLUME
-        //else return;
-        //G4cout << particleName << " " << startVolumeName << " " << endVolumeName << G4endl;
-        G4ThreeVector pointInSurf = aStepPoint->GetPosition();
-        pos_x = pointInSurf[0];
-        pos_y = pointInSurf[1];
-        pos_z = pointInSurf[2] ;
-        G4cout << "step_r " << pos_x*pos_x+pos_y*pos_y << " " << 550*550*cm*cm <<G4endl;
-        G4cout << "step_h " << pos_z << " " << 650*cm << G4endl;
-        
-        if (pos_z<((650.0-0.8))*cm){   //no PMT on the top surface
-            track->SetTrackStatus(fStopAndKill);
-            run->AddSurfaceDetection();
-            analysisMan->FillNtupleDColumn(6, pos_x);  //pos_x
-            analysisMan->FillNtupleDColumn(7, pointInSurf[1]);  //pos_y
-            analysisMan->FillNtupleDColumn(8, pointInSurf[2]);  //pos_z
-            analysisMan->AddNtupleRow(0);
-        
-        }
-        G4cout << " fine" << G4endl;
-    }
-    else{ 
-    G4cout << "ciao" << G4endl;
-     aStepPoint = endPoint;
-       G4ThreeVector pointInSurf = aStepPoint->GetPosition();
-        pos_x = pointInSurf[0];
-        pos_y = pointInSurf[1];
-        pos_z = pointInSurf[2] ;
-        G4cout << "NO step_r " << pos_x*pos_x+pos_y*pos_y << " " << 550*550*cm*cm <<G4endl;
-        G4cout << "NO step_h " << pos_z << " " << 650*cm << G4endl;}
-    
 
 
     /*
@@ -166,6 +166,4 @@ void SNneutrinosSimSteppingAction::UserSteppingAction(const G4Step* step)
                 ) run->AddInnerCladdingAbsorption();
     }
 */
-    return;
 
-}
