@@ -34,6 +34,9 @@ class SNneutrinosSimDetectorConstruction : public G4VUserDetectorConstruction
 
         G4Material *steelMat;
         G4MaterialPropertiesTable *steelMPT;
+
+        G4Material *PMTMat;
+        G4MaterialPropertiesTable *CsMPT;
 };
 
 
