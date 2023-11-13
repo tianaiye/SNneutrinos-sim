@@ -24,7 +24,7 @@ class SNneutrinosSimDetectorConstruction : public G4VUserDetectorConstruction
         void SetOpticalProperties();
 
         G4VPhysicalVolume* SetupWTandCryostat();
-        
+        G4LogicalVolume *logicDetector;
         G4String fGeometryName;
 
         DetectorMessenger *fDetectorMessenger;
@@ -32,8 +32,13 @@ class SNneutrinosSimDetectorConstruction : public G4VUserDetectorConstruction
         G4Material *waterMat;
         G4MaterialPropertiesTable *waterMPT;
 
+        // G4Material *opTankSurface;
+        // G4MaterialPropertiesTable *SMPT;
+
         G4Material *steelMat;
         G4MaterialPropertiesTable *steelMPT;
+
+        G4MaterialPropertiesTable *reflectorMPT;
 
         G4Material *PMTMat;
         G4MaterialPropertiesTable *CsMPT;

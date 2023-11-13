@@ -1,7 +1,7 @@
-/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build/CMakeFiles/install/strip.dir
-/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build/CMakeFiles/install/local.dir
-/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build/CMakeFiles/install.dir
-/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build/CMakeFiles/list_install_components.dir
-/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build/CMakeFiles/rebuild_cache.dir
-/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build/CMakeFiles/edit_cache.dir
-/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build/CMakeFiles/SNneutrinosSim.dir
+/home/tye/SNneutrinos-sim/build/CMakeFiles/install/strip.dir
+/home/tye/SNneutrinos-sim/build/CMakeFiles/install/local.dir
+/home/tye/SNneutrinos-sim/build/CMakeFiles/install.dir
+/home/tye/SNneutrinos-sim/build/CMakeFiles/list_install_components.dir
+/home/tye/SNneutrinos-sim/build/CMakeFiles/rebuild_cache.dir
+/home/tye/SNneutrinos-sim/build/CMakeFiles/edit_cache.dir
+/home/tye/SNneutrinos-sim/build/CMakeFiles/SNneutrinosSim.dir

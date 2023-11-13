@@ -1,8 +1,8 @@
-#ifdef G4MULTITHREADED
-#include "G4MTRunManager.hh"
-#else
+// #ifdef G4MULTITHREADED
+// #include "G4MTRunManager.hh"
+// #else
 #include "G4RunManager.hh"
-#endif
+// #endif
 
 #include "G4UIExecutive.hh"
 #include "G4VisExecutive.hh"
@@ -12,11 +12,13 @@
 #include "FTFP_BERT.hh"
 #include "G4OpticalPhysics.hh"
 #include "G4EmStandardPhysics_option4.hh"
+#include "G4EmStandardPhysics.hh"
 
 #include "SNneutrinosSimDetectorConstruction.hh"
 #include "SNneutrinosSimActionInitialization.hh"
 
 #include "G4Cerenkov.hh"
+
 
 
 int main(int argc,char** argv)
@@ -33,15 +35,15 @@ int main(int argc,char** argv)
     //     G4RunManager * runManager = new G4RunManager;
     // #endif
 
-    #ifdef G4MULTITHREADED
-    G4MTRunManager * runManager = new G4MTRunManager;
-    // G4int nThreads = std::min(G4Threading::G4GetNumberOfCores(), 4);
-    // runManager->SetNumberOfThreads(nThreads);
-    // G4cout << "===== OpNovice2 is started with "
-    //         <<  runManager->GetNumberOfThreads() << " threads =====" << G4endl;
-    #else
+    // #ifdef G4MULTITHREADED
+    // G4MTRunManager * runManager = new G4MTRunManager;
+    // // G4int nThreads = std::min(G4Threading::G4GetNumberOfCores(), 4);
+    // // runManager->SetNumberOfThreads(nThreads);
+    // // G4cout << "===== OpNovice2 is started with "
+    // //         <<  runManager->GetNumberOfThreads() << " threads =====" << G4endl;
+    // #else
     G4RunManager * runManager = new G4RunManager;
-    #endif
+    // #endif
 
     // Set mandatory initialization classes
     //
@@ -50,12 +52,13 @@ int main(int argc,char** argv)
     
     // Physics list
     G4VModularPhysicsList* physicsList = new FTFP_BERT;
-    physicsList->ReplacePhysics(new G4EmStandardPhysics_option4());
+    physicsList->ReplacePhysics(new G4EmStandardPhysics());
     G4OpticalPhysics* opticalPhysics = new G4OpticalPhysics();
-    opticalPhysics->SetCerenkovTrackSecondariesFirst(true);
+    // opticalPhysics->SetCerenkovTrackSecondariesFirst(true);
     //opticalPhysics->SetMaxNumPhotonsPerStep(10); 
     //default 100 -->Set the step size to limit the number of photons produced (on average) to a given value (an integer N)
     physicsList->RegisterPhysics(opticalPhysics);
+  
     runManager->SetUserInitialization(physicsList);
 
     // User action initialization

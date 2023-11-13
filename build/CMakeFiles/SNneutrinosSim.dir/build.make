@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim
+CMAKE_SOURCE_DIR = /home/tye/SNneutrinos-sim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build
+CMAKE_BINARY_DIR = /home/tye/SNneutrinos-sim/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/SNneutrinosSim.dir/depend.make
@@ -59,133 +59,133 @@ include CMakeFiles/SNneutrinosSim.dir/flags.make
 
 CMakeFiles/SNneutrinosSim.dir/SNneutrinosSim.cc.o: CMakeFiles/SNneutrinosSim.dir/flags.make
 CMakeFiles/SNneutrinosSim.dir/SNneutrinosSim.cc.o: ../SNneutrinosSim.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SNneutrinosSim.dir/SNneutrinosSim.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SNneutrinosSim.dir/SNneutrinosSim.cc.o -c /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/SNneutrinosSim.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tye/SNneutrinos-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SNneutrinosSim.dir/SNneutrinosSim.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SNneutrinosSim.dir/SNneutrinosSim.cc.o -c /home/tye/SNneutrinos-sim/SNneutrinosSim.cc
 
 CMakeFiles/SNneutrinosSim.dir/SNneutrinosSim.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SNneutrinosSim.dir/SNneutrinosSim.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/SNneutrinosSim.cc > CMakeFiles/SNneutrinosSim.dir/SNneutrinosSim.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tye/SNneutrinos-sim/SNneutrinosSim.cc > CMakeFiles/SNneutrinosSim.dir/SNneutrinosSim.cc.i
 
 CMakeFiles/SNneutrinosSim.dir/SNneutrinosSim.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SNneutrinosSim.dir/SNneutrinosSim.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/SNneutrinosSim.cc -o CMakeFiles/SNneutrinosSim.dir/SNneutrinosSim.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tye/SNneutrinos-sim/SNneutrinosSim.cc -o CMakeFiles/SNneutrinosSim.dir/SNneutrinosSim.cc.s
 
 CMakeFiles/SNneutrinosSim.dir/src/Run.cc.o: CMakeFiles/SNneutrinosSim.dir/flags.make
 CMakeFiles/SNneutrinosSim.dir/src/Run.cc.o: ../src/Run.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SNneutrinosSim.dir/src/Run.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SNneutrinosSim.dir/src/Run.cc.o -c /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/Run.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tye/SNneutrinos-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SNneutrinosSim.dir/src/Run.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SNneutrinosSim.dir/src/Run.cc.o -c /home/tye/SNneutrinos-sim/src/Run.cc
 
 CMakeFiles/SNneutrinosSim.dir/src/Run.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SNneutrinosSim.dir/src/Run.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/Run.cc > CMakeFiles/SNneutrinosSim.dir/src/Run.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tye/SNneutrinos-sim/src/Run.cc > CMakeFiles/SNneutrinosSim.dir/src/Run.cc.i
 
 CMakeFiles/SNneutrinosSim.dir/src/Run.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SNneutrinosSim.dir/src/Run.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/Run.cc -o CMakeFiles/SNneutrinosSim.dir/src/Run.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tye/SNneutrinos-sim/src/Run.cc -o CMakeFiles/SNneutrinosSim.dir/src/Run.cc.s
 
 CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimActionInitialization.cc.o: CMakeFiles/SNneutrinosSim.dir/flags.make
 CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimActionInitialization.cc.o: ../src/SNneutrinosSimActionInitialization.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimActionInitialization.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimActionInitialization.cc.o -c /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/SNneutrinosSimActionInitialization.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tye/SNneutrinos-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimActionInitialization.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimActionInitialization.cc.o -c /home/tye/SNneutrinos-sim/src/SNneutrinosSimActionInitialization.cc
 
 CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimActionInitialization.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimActionInitialization.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/SNneutrinosSimActionInitialization.cc > CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimActionInitialization.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tye/SNneutrinos-sim/src/SNneutrinosSimActionInitialization.cc > CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimActionInitialization.cc.i
 
 CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimActionInitialization.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimActionInitialization.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/SNneutrinosSimActionInitialization.cc -o CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimActionInitialization.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tye/SNneutrinos-sim/src/SNneutrinosSimActionInitialization.cc -o CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimActionInitialization.cc.s
 
 CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimDetectorConstruction.cc.o: CMakeFiles/SNneutrinosSim.dir/flags.make
 CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimDetectorConstruction.cc.o: ../src/SNneutrinosSimDetectorConstruction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimDetectorConstruction.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimDetectorConstruction.cc.o -c /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/SNneutrinosSimDetectorConstruction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tye/SNneutrinos-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimDetectorConstruction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimDetectorConstruction.cc.o -c /home/tye/SNneutrinos-sim/src/SNneutrinosSimDetectorConstruction.cc
 
 CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimDetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimDetectorConstruction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/SNneutrinosSimDetectorConstruction.cc > CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimDetectorConstruction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tye/SNneutrinos-sim/src/SNneutrinosSimDetectorConstruction.cc > CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimDetectorConstruction.cc.i
 
 CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimDetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimDetectorConstruction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/SNneutrinosSimDetectorConstruction.cc -o CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimDetectorConstruction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tye/SNneutrinos-sim/src/SNneutrinosSimDetectorConstruction.cc -o CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimDetectorConstruction.cc.s
 
 CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimDetectorMessenger.cc.o: CMakeFiles/SNneutrinosSim.dir/flags.make
 CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimDetectorMessenger.cc.o: ../src/SNneutrinosSimDetectorMessenger.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimDetectorMessenger.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimDetectorMessenger.cc.o -c /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/SNneutrinosSimDetectorMessenger.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tye/SNneutrinos-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimDetectorMessenger.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimDetectorMessenger.cc.o -c /home/tye/SNneutrinos-sim/src/SNneutrinosSimDetectorMessenger.cc
 
 CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimDetectorMessenger.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimDetectorMessenger.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/SNneutrinosSimDetectorMessenger.cc > CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimDetectorMessenger.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tye/SNneutrinos-sim/src/SNneutrinosSimDetectorMessenger.cc > CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimDetectorMessenger.cc.i
 
 CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimDetectorMessenger.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimDetectorMessenger.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/SNneutrinosSimDetectorMessenger.cc -o CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimDetectorMessenger.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tye/SNneutrinos-sim/src/SNneutrinosSimDetectorMessenger.cc -o CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimDetectorMessenger.cc.s
 
 CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimPrimaryGenerator.cc.o: CMakeFiles/SNneutrinosSim.dir/flags.make
 CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimPrimaryGenerator.cc.o: ../src/SNneutrinosSimPrimaryGenerator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimPrimaryGenerator.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimPrimaryGenerator.cc.o -c /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/SNneutrinosSimPrimaryGenerator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tye/SNneutrinos-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimPrimaryGenerator.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimPrimaryGenerator.cc.o -c /home/tye/SNneutrinos-sim/src/SNneutrinosSimPrimaryGenerator.cc
 
 CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimPrimaryGenerator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimPrimaryGenerator.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/SNneutrinosSimPrimaryGenerator.cc > CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimPrimaryGenerator.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tye/SNneutrinos-sim/src/SNneutrinosSimPrimaryGenerator.cc > CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimPrimaryGenerator.cc.i
 
 CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimPrimaryGenerator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimPrimaryGenerator.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/SNneutrinosSimPrimaryGenerator.cc -o CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimPrimaryGenerator.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tye/SNneutrinos-sim/src/SNneutrinosSimPrimaryGenerator.cc -o CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimPrimaryGenerator.cc.s
 
 CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimRunAction.cc.o: CMakeFiles/SNneutrinosSim.dir/flags.make
 CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimRunAction.cc.o: ../src/SNneutrinosSimRunAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimRunAction.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimRunAction.cc.o -c /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/SNneutrinosSimRunAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tye/SNneutrinos-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimRunAction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimRunAction.cc.o -c /home/tye/SNneutrinos-sim/src/SNneutrinosSimRunAction.cc
 
 CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimRunAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimRunAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/SNneutrinosSimRunAction.cc > CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimRunAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tye/SNneutrinos-sim/src/SNneutrinosSimRunAction.cc > CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimRunAction.cc.i
 
 CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimRunAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimRunAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/SNneutrinosSimRunAction.cc -o CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimRunAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tye/SNneutrinos-sim/src/SNneutrinosSimRunAction.cc -o CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimRunAction.cc.s
 
 CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSensitiveDetector.cc.o: CMakeFiles/SNneutrinosSim.dir/flags.make
 CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSensitiveDetector.cc.o: ../src/SNneutrinosSimSensitiveDetector.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSensitiveDetector.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSensitiveDetector.cc.o -c /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/SNneutrinosSimSensitiveDetector.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tye/SNneutrinos-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSensitiveDetector.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSensitiveDetector.cc.o -c /home/tye/SNneutrinos-sim/src/SNneutrinosSimSensitiveDetector.cc
 
 CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSensitiveDetector.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSensitiveDetector.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/SNneutrinosSimSensitiveDetector.cc > CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSensitiveDetector.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tye/SNneutrinos-sim/src/SNneutrinosSimSensitiveDetector.cc > CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSensitiveDetector.cc.i
 
 CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSensitiveDetector.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSensitiveDetector.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/SNneutrinosSimSensitiveDetector.cc -o CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSensitiveDetector.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tye/SNneutrinos-sim/src/SNneutrinosSimSensitiveDetector.cc -o CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSensitiveDetector.cc.s
 
 CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSteppingAction.cc.o: CMakeFiles/SNneutrinosSim.dir/flags.make
 CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSteppingAction.cc.o: ../src/SNneutrinosSimSteppingAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSteppingAction.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSteppingAction.cc.o -c /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/SNneutrinosSimSteppingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tye/SNneutrinos-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSteppingAction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSteppingAction.cc.o -c /home/tye/SNneutrinos-sim/src/SNneutrinosSimSteppingAction.cc
 
 CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSteppingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSteppingAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/SNneutrinosSimSteppingAction.cc > CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSteppingAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tye/SNneutrinos-sim/src/SNneutrinosSimSteppingAction.cc > CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSteppingAction.cc.i
 
 CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSteppingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSteppingAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/SNneutrinosSimSteppingAction.cc -o CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSteppingAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tye/SNneutrinos-sim/src/SNneutrinosSimSteppingAction.cc -o CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSteppingAction.cc.s
 
 CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimTrackingAction.cc.o: CMakeFiles/SNneutrinosSim.dir/flags.make
 CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimTrackingAction.cc.o: ../src/SNneutrinosSimTrackingAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimTrackingAction.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimTrackingAction.cc.o -c /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/SNneutrinosSimTrackingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tye/SNneutrinos-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimTrackingAction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimTrackingAction.cc.o -c /home/tye/SNneutrinos-sim/src/SNneutrinosSimTrackingAction.cc
 
 CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimTrackingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimTrackingAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/SNneutrinosSimTrackingAction.cc > CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimTrackingAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tye/SNneutrinos-sim/src/SNneutrinosSimTrackingAction.cc > CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimTrackingAction.cc.i
 
 CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimTrackingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimTrackingAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/SNneutrinosSimTrackingAction.cc -o CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimTrackingAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tye/SNneutrinos-sim/src/SNneutrinosSimTrackingAction.cc -o CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimTrackingAction.cc.s
 
 # Object files for target SNneutrinosSim
 SNneutrinosSim_OBJECTS = \
@@ -214,73 +214,93 @@ SNneutrinosSim: CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSensitiveDetecto
 SNneutrinosSim: CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSteppingAction.cc.o
 SNneutrinosSim: CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimTrackingAction.cc.o
 SNneutrinosSim: CMakeFiles/SNneutrinosSim.dir/build.make
-SNneutrinosSim: /home/valentina/Software/.install/geant4/linux-ubuntu-19.10-x86_64/10.06/lib/libG4Tree.so
-SNneutrinosSim: /home/valentina/Software/.install/geant4/linux-ubuntu-19.10-x86_64/10.06/lib/libG4GMocren.so
-SNneutrinosSim: /home/valentina/Software/.install/geant4/linux-ubuntu-19.10-x86_64/10.06/lib/libG4visHepRep.so
-SNneutrinosSim: /home/valentina/Software/.install/geant4/linux-ubuntu-19.10-x86_64/10.06/lib/libG4RayTracer.so
-SNneutrinosSim: /home/valentina/Software/.install/geant4/linux-ubuntu-19.10-x86_64/10.06/lib/libG4VRML.so
-SNneutrinosSim: /home/valentina/Software/.install/geant4/linux-ubuntu-19.10-x86_64/10.06/lib/libG4OpenGL.so
-SNneutrinosSim: /home/valentina/Software/.install/geant4/linux-ubuntu-19.10-x86_64/10.06/lib/libG4gl2ps.so
-SNneutrinosSim: /home/valentina/Software/.install/geant4/linux-ubuntu-19.10-x86_64/10.06/lib/libG4interfaces.so
-SNneutrinosSim: /home/valentina/Software/.install/geant4/linux-ubuntu-19.10-x86_64/10.06/lib/libG4persistency.so
-SNneutrinosSim: /home/valentina/Software/.install/geant4/linux-ubuntu-19.10-x86_64/10.06/lib/libG4error_propagation.so
-SNneutrinosSim: /home/valentina/Software/.install/geant4/linux-ubuntu-19.10-x86_64/10.06/lib/libG4readout.so
-SNneutrinosSim: /home/valentina/Software/.install/geant4/linux-ubuntu-19.10-x86_64/10.06/lib/libG4physicslists.so
-SNneutrinosSim: /home/valentina/Software/.install/geant4/linux-ubuntu-19.10-x86_64/10.06/lib/libG4parmodels.so
-SNneutrinosSim: /home/valentina/Software/.install/root/linux-ubuntu-19.10-x86_64/6.18.04/lib/libCore.so
-SNneutrinosSim: /home/valentina/Software/.install/root/linux-ubuntu-19.10-x86_64/6.18.04/lib/libImt.so
-SNneutrinosSim: /home/valentina/Software/.install/root/linux-ubuntu-19.10-x86_64/6.18.04/lib/libRIO.so
-SNneutrinosSim: /home/valentina/Software/.install/root/linux-ubuntu-19.10-x86_64/6.18.04/lib/libNet.so
-SNneutrinosSim: /home/valentina/Software/.install/root/linux-ubuntu-19.10-x86_64/6.18.04/lib/libHist.so
-SNneutrinosSim: /home/valentina/Software/.install/root/linux-ubuntu-19.10-x86_64/6.18.04/lib/libGraf.so
-SNneutrinosSim: /home/valentina/Software/.install/root/linux-ubuntu-19.10-x86_64/6.18.04/lib/libGraf3d.so
-SNneutrinosSim: /home/valentina/Software/.install/root/linux-ubuntu-19.10-x86_64/6.18.04/lib/libGpad.so
-SNneutrinosSim: /home/valentina/Software/.install/root/linux-ubuntu-19.10-x86_64/6.18.04/lib/libROOTDataFrame.so
-SNneutrinosSim: /home/valentina/Software/.install/root/linux-ubuntu-19.10-x86_64/6.18.04/lib/libTree.so
-SNneutrinosSim: /home/valentina/Software/.install/root/linux-ubuntu-19.10-x86_64/6.18.04/lib/libTreePlayer.so
-SNneutrinosSim: /home/valentina/Software/.install/root/linux-ubuntu-19.10-x86_64/6.18.04/lib/libRint.so
-SNneutrinosSim: /home/valentina/Software/.install/root/linux-ubuntu-19.10-x86_64/6.18.04/lib/libPostscript.so
-SNneutrinosSim: /home/valentina/Software/.install/root/linux-ubuntu-19.10-x86_64/6.18.04/lib/libMatrix.so
-SNneutrinosSim: /home/valentina/Software/.install/root/linux-ubuntu-19.10-x86_64/6.18.04/lib/libPhysics.so
-SNneutrinosSim: /home/valentina/Software/.install/root/linux-ubuntu-19.10-x86_64/6.18.04/lib/libMathCore.so
-SNneutrinosSim: /home/valentina/Software/.install/root/linux-ubuntu-19.10-x86_64/6.18.04/lib/libThread.so
-SNneutrinosSim: /home/valentina/Software/.install/root/linux-ubuntu-19.10-x86_64/6.18.04/lib/libMultiProc.so
-SNneutrinosSim: /home/valentina/Software/.install/geant4/linux-ubuntu-19.10-x86_64/10.06/lib/libG4FR.so
-SNneutrinosSim: /home/valentina/Software/.install/geant4/linux-ubuntu-19.10-x86_64/10.06/lib/libG4vis_management.so
-SNneutrinosSim: /home/valentina/Software/.install/geant4/linux-ubuntu-19.10-x86_64/10.06/lib/libG4modeling.so
+SNneutrinosSim: /opt/geant4/lib/libG4Tree.so
+SNneutrinosSim: /opt/geant4/lib/libG4FR.so
+SNneutrinosSim: /opt/geant4/lib/libG4GMocren.so
+SNneutrinosSim: /opt/geant4/lib/libG4visHepRep.so
+SNneutrinosSim: /opt/geant4/lib/libG4RayTracer.so
+SNneutrinosSim: /opt/geant4/lib/libG4VRML.so
+SNneutrinosSim: /opt/geant4/lib/libG4OpenGL.so
+SNneutrinosSim: /opt/geant4/lib/libG4OpenInventor.so
+SNneutrinosSim: /opt/geant4/lib/libG4vis_management.so
+SNneutrinosSim: /opt/geant4/lib/libG4modeling.so
+SNneutrinosSim: /opt/geant4/lib/libG4interfaces.so
+SNneutrinosSim: /opt/geant4/lib/libG4persistency.so
+SNneutrinosSim: /opt/geant4/lib/libG4error_propagation.so
+SNneutrinosSim: /opt/geant4/lib/libG4readout.so
+SNneutrinosSim: /opt/geant4/lib/libG4physicslists.so
+SNneutrinosSim: /opt/geant4/lib/libG4tasking.so
+SNneutrinosSim: /opt/geant4/lib/libG4parmodels.so
+SNneutrinosSim: /opt/root/lib/libCore.so
+SNneutrinosSim: /opt/root/lib/libImt.so
+SNneutrinosSim: /opt/root/lib/libRIO.so
+SNneutrinosSim: /opt/root/lib/libNet.so
+SNneutrinosSim: /opt/root/lib/libHist.so
+SNneutrinosSim: /opt/root/lib/libGraf.so
+SNneutrinosSim: /opt/root/lib/libGraf3d.so
+SNneutrinosSim: /opt/root/lib/libGpad.so
+SNneutrinosSim: /opt/root/lib/libTree.so
+SNneutrinosSim: /opt/root/lib/libTreePlayer.so
+SNneutrinosSim: /opt/root/lib/libRint.so
+SNneutrinosSim: /opt/root/lib/libPostscript.so
+SNneutrinosSim: /opt/root/lib/libMatrix.so
+SNneutrinosSim: /opt/root/lib/libPhysics.so
+SNneutrinosSim: /opt/root/lib/libMathCore.so
+SNneutrinosSim: /opt/root/lib/libThread.so
+SNneutrinosSim: /opt/root/lib/libMultiProc.so
+SNneutrinosSim: /opt/root/lib/libROOTVecOps.so
+SNneutrinosSim: /opt/geant4/lib/libG4gl2ps.so
 SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libXmu.so
 SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libXext.so
+SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libXm.so
 SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libXt.so
+SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libICE.so
+SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libSM.so
+SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libX11.so
+SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libGL.so
+SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libQt5PrintSupport.so.5.14.2
+SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libSoQt.so.1.6.0
+SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libQt5OpenGL.so.5.14.2
+SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.14.2
+SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.14.2
+SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libCoin.so.4.0.0
+SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.14.2
+SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libGLX.so
+SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libGLU.so
 SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libSM.so
 SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libICE.so
 SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libX11.so
-SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libXm.so
-SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libGLU.so
-SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libGL.so
-SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libQt5OpenGL.so.5.12.8
-SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libQt5PrintSupport.so.5.12.8
-SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
-SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
-SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
-SNneutrinosSim: /home/valentina/Software/.install/xerces/linux-ubuntu-19.10-x86_64/3.2.2/lib/libxerces-c.so
-SNneutrinosSim: /home/valentina/Software/.install/geant4/linux-ubuntu-19.10-x86_64/10.06/lib/libG4run.so
-SNneutrinosSim: /home/valentina/Software/.install/geant4/linux-ubuntu-19.10-x86_64/10.06/lib/libG4event.so
-SNneutrinosSim: /home/valentina/Software/.install/geant4/linux-ubuntu-19.10-x86_64/10.06/lib/libG4tracking.so
-SNneutrinosSim: /home/valentina/Software/.install/geant4/linux-ubuntu-19.10-x86_64/10.06/lib/libG4processes.so
-SNneutrinosSim: /home/valentina/Software/.install/geant4/linux-ubuntu-19.10-x86_64/10.06/lib/libG4analysis.so
-SNneutrinosSim: /home/valentina/Software/.install/geant4/linux-ubuntu-19.10-x86_64/10.06/lib/libG4zlib.so
+SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libXext.so
+SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libXi.so
+SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libxerces-c.so
+SNneutrinosSim: /opt/geant4/lib/libG4run.so
+SNneutrinosSim: /opt/geant4/lib/libG4event.so
+SNneutrinosSim: /opt/geant4/lib/libG4tracking.so
+SNneutrinosSim: /opt/geant4/lib/libG4processes.so
+SNneutrinosSim: /opt/geant4/lib/libG4analysis.so
+SNneutrinosSim: /usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5.so
+SNneutrinosSim: /usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5.so
+SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libpthread.so
+SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libsz.so
+SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libz.so
+SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libdl.so
+SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libm.so
 SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libexpat.so
-SNneutrinosSim: /home/valentina/Software/.install/geant4/linux-ubuntu-19.10-x86_64/10.06/lib/libG4digits_hits.so
-SNneutrinosSim: /home/valentina/Software/.install/geant4/linux-ubuntu-19.10-x86_64/10.06/lib/libG4track.so
-SNneutrinosSim: /home/valentina/Software/.install/geant4/linux-ubuntu-19.10-x86_64/10.06/lib/libG4particles.so
-SNneutrinosSim: /home/valentina/Software/.install/geant4/linux-ubuntu-19.10-x86_64/10.06/lib/libG4geometry.so
-SNneutrinosSim: /home/valentina/Software/.install/geant4/linux-ubuntu-19.10-x86_64/10.06/lib/libG4materials.so
-SNneutrinosSim: /home/valentina/Software/.install/geant4/linux-ubuntu-19.10-x86_64/10.06/lib/libG4graphics_reps.so
-SNneutrinosSim: /home/valentina/Software/.install/geant4/linux-ubuntu-19.10-x86_64/10.06/lib/libG4intercoms.so
-SNneutrinosSim: /home/valentina/Software/.install/geant4/linux-ubuntu-19.10-x86_64/10.06/lib/libG4global.so
-SNneutrinosSim: /home/valentina/Software/.install/CHLEP/linux-ubuntu-19.10-x86_64/2.4.1.0/lib/libCLHEP-2.4.1.0.so
+SNneutrinosSim: /opt/geant4/lib/libG4digits_hits.so
+SNneutrinosSim: /opt/geant4/lib/libG4track.so
+SNneutrinosSim: /opt/geant4/lib/libG4particles.so
+SNneutrinosSim: /opt/geant4/lib/libG4geometry.so
+SNneutrinosSim: /opt/vecgeom/lib/libvecgeom.a
+SNneutrinosSim: /opt/geant4/lib/libG4materials.so
+SNneutrinosSim: /usr/lib/x86_64-linux-gnu/libz.so
+SNneutrinosSim: /opt/geant4/lib/libG4graphics_reps.so
+SNneutrinosSim: /opt/geant4/lib/libG4intercoms.so
+SNneutrinosSim: /opt/geant4/lib/libG4global.so
+SNneutrinosSim: /opt/geant4/lib/libG4clhep.so
+SNneutrinosSim: /opt/geant4/lib/libG4ptl.so.0.0.2
 SNneutrinosSim: CMakeFiles/SNneutrinosSim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable SNneutrinosSim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tye/SNneutrinos-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable SNneutrinosSim"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SNneutrinosSim.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -293,6 +313,6 @@ CMakeFiles/SNneutrinosSim.dir/clean:
 .PHONY : CMakeFiles/SNneutrinosSim.dir/clean
 
 CMakeFiles/SNneutrinosSim.dir/depend:
-	cd /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build/CMakeFiles/SNneutrinosSim.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tye/SNneutrinos-sim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tye/SNneutrinos-sim /home/tye/SNneutrinos-sim /home/tye/SNneutrinos-sim/build /home/tye/SNneutrinos-sim/build /home/tye/SNneutrinos-sim/build/CMakeFiles/SNneutrinosSim.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/SNneutrinosSim.dir/depend
 

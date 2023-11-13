@@ -4,16 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/SNneutrinosSim.cc" "/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build/CMakeFiles/SNneutrinosSim.dir/SNneutrinosSim.cc.o"
-  "/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/Run.cc" "/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build/CMakeFiles/SNneutrinosSim.dir/src/Run.cc.o"
-  "/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/SNneutrinosSimActionInitialization.cc" "/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build/CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimActionInitialization.cc.o"
-  "/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/SNneutrinosSimDetectorConstruction.cc" "/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build/CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimDetectorConstruction.cc.o"
-  "/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/SNneutrinosSimDetectorMessenger.cc" "/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build/CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimDetectorMessenger.cc.o"
-  "/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/SNneutrinosSimPrimaryGenerator.cc" "/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build/CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimPrimaryGenerator.cc.o"
-  "/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/SNneutrinosSimRunAction.cc" "/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build/CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimRunAction.cc.o"
-  "/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/SNneutrinosSimSensitiveDetector.cc" "/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build/CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSensitiveDetector.cc.o"
-  "/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/SNneutrinosSimSteppingAction.cc" "/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build/CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSteppingAction.cc.o"
-  "/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/src/SNneutrinosSimTrackingAction.cc" "/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build/CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimTrackingAction.cc.o"
+  "/home/tye/SNneutrinos-sim/SNneutrinosSim.cc" "/home/tye/SNneutrinos-sim/build/CMakeFiles/SNneutrinosSim.dir/SNneutrinosSim.cc.o"
+  "/home/tye/SNneutrinos-sim/src/Run.cc" "/home/tye/SNneutrinos-sim/build/CMakeFiles/SNneutrinosSim.dir/src/Run.cc.o"
+  "/home/tye/SNneutrinos-sim/src/SNneutrinosSimActionInitialization.cc" "/home/tye/SNneutrinos-sim/build/CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimActionInitialization.cc.o"
+  "/home/tye/SNneutrinos-sim/src/SNneutrinosSimDetectorConstruction.cc" "/home/tye/SNneutrinos-sim/build/CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimDetectorConstruction.cc.o"
+  "/home/tye/SNneutrinos-sim/src/SNneutrinosSimDetectorMessenger.cc" "/home/tye/SNneutrinos-sim/build/CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimDetectorMessenger.cc.o"
+  "/home/tye/SNneutrinos-sim/src/SNneutrinosSimPrimaryGenerator.cc" "/home/tye/SNneutrinos-sim/build/CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimPrimaryGenerator.cc.o"
+  "/home/tye/SNneutrinos-sim/src/SNneutrinosSimRunAction.cc" "/home/tye/SNneutrinos-sim/build/CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimRunAction.cc.o"
+  "/home/tye/SNneutrinos-sim/src/SNneutrinosSimSensitiveDetector.cc" "/home/tye/SNneutrinos-sim/build/CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSensitiveDetector.cc.o"
+  "/home/tye/SNneutrinos-sim/src/SNneutrinosSimSteppingAction.cc" "/home/tye/SNneutrinos-sim/build/CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimSteppingAction.cc.o"
+  "/home/tye/SNneutrinos-sim/src/SNneutrinosSimTrackingAction.cc" "/home/tye/SNneutrinos-sim/build/CMakeFiles/SNneutrinosSim.dir/src/SNneutrinosSimTrackingAction.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -25,6 +25,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "G4UI_USE_QT"
   "G4UI_USE_TCSH"
   "G4UI_USE_XM"
+  "G4VIS_USE_OI"
+  "G4VIS_USE_OIQT"
   "G4VIS_USE_OPENGL"
   "G4VIS_USE_OPENGLQT"
   "G4VIS_USE_OPENGLX"
@@ -40,19 +42,19 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/valentina/Software/.install/CHLEP/linux-ubuntu-19.10-x86_64/2.4.1.0/lib/CLHEP-2.4.1.0/../../include"
-  "/home/valentina/Software/.install/root/linux-ubuntu-19.10-x86_64/6.18.04/include"
+  "/opt/root/include"
   "../include"
-  "/home/valentina/Software/.install/geant4/linux-ubuntu-19.10-x86_64/10.06/include/Geant4"
-  "/home/valentina/Software/.install/CHLEP/linux-ubuntu-19.10-x86_64/2.4.1.0/include"
+  "/opt/geant4/include/Geant4"
+  "/opt/geant4/include"
+  "/opt/vecgeom/include"
+  "/usr/include/hdf5/serial"
   "/usr/include/x86_64-linux-gnu/qt5"
-  "/usr/include/x86_64-linux-gnu/qt5/QtGui"
   "/usr/include/x86_64-linux-gnu/qt5/QtCore"
   "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
+  "/usr/include/x86_64-linux-gnu/qt5/QtGui"
   "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
-  "/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport"
   "/usr/include/x86_64-linux-gnu/qt5/QtOpenGL"
-  "/home/valentina/Software/.install/xerces/linux-ubuntu-19.10-x86_64/3.2.2/include"
+  "/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport"
   )
 
 # Targets to which this target links.

@@ -1,4 +1,4 @@
-# Install script for directory: /home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim
+# Install script for directory: /home/tye/SNneutrinos-sim
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,12 +44,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/SNneutrinosSim"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build/SNneutrinosSim")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/tye/SNneutrinos-sim/build/SNneutrinosSim")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/SNneutrinosSim" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/SNneutrinosSim")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/SNneutrinosSim"
-         OLD_RPATH "/home/valentina/Software/.install/root/linux-ubuntu-19.10-x86_64/6.18.04/lib:/home/valentina/Software/.install/geant4/linux-ubuntu-19.10-x86_64/10.06/lib:/home/valentina/Software/.install/xerces/linux-ubuntu-19.10-x86_64/3.2.2/lib:/home/valentina/Software/.install/CHLEP/linux-ubuntu-19.10-x86_64/2.4.1.0/lib:"
+         OLD_RPATH "/opt/root/lib:/opt/geant4/lib:/usr/lib/x86_64-linux-gnu/hdf5/serial:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/SNneutrinosSim")
@@ -65,5 +65,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/valentina/GSSI/Supernova_Neutrinos/SNneutrinos-sim/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/tye/SNneutrinos-sim/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

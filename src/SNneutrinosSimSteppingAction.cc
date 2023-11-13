@@ -57,6 +57,8 @@ void SNneutrinosSimSteppingAction::UserSteppingAction(const G4Step* step)
     G4double pos_z = 0.;
     G4StepPoint* aStepPoint = 0;
 
+    // G4cout << processName << G4endl;
+    
     if (particleName=="opticalphoton" ){ 
         run->AddOpticalPhoton();
         aStepPoint = endPoint;
@@ -65,8 +67,9 @@ void SNneutrinosSimSteppingAction::UserSteppingAction(const G4Step* step)
         pos_y = pointIn[1];
         pos_z = pointIn[2] ;
 
+        G4cout << processName << G4endl;
         if (processName!="Transportation") G4cout << processName << G4endl;
-         
+        
         //G4cout << "step_r " << pos_x*pos_x+pos_y*pos_y << " " << 550*550*cm*cm <<G4endl;
         //G4cout << "step_h " << pos_z << " " << 650*cm << G4endl;
 
